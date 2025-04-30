@@ -1,0 +1,134 @@
+Reasoning Type,Test Question,Expected Reasoning Style,GPT Response Summary,Correct Reasoning (Y/N),Notes
+Deductive,All cats are mammals. Felix is a cat. Is Felix a mammal?,Direct logical deduction,"Step 1: Identify the premises. The premises here are ""All cats are mammals"" and ""Felix is a cat.""
+
+Step 2: Understand the logical connection between the premises. Here, the first premise establishes a category (mammals) that all members of another category (cats) belong to. The second premise places Felix in the category of cats.
+
+Step 3: Apply the logical connection to the specific case. Since Felix is a cat, and all cats are mammals, Felix must be a mammal.
+
+Step 4: Formulate the conclusion. Therefore, Felix is a mammal.",Y,
+Inductive,I saw 10 white swans. Are all swans white?,Generalization with caution,"Based on the observation of 10 white swans, one might infer that all swans are white. However, this is an assumption based on a limited sample size. In reality, not all swans are white. There are also black swans, which are native to Australia. Therefore, while the observed pattern suggests that swans may generally be white, it is not a definitive rule.",Y,
+Abductive,The ground is wet. Why?,"Best guess (e.g., rain)",It has recently rained. This is the most plausible explanation because rain is a common and natural cause for wet ground. Other possibilities such as sprinklers or a spilled bucket of water are less likely as they are more localized or require human intervention.,Y,
+Causal,"Marketing increased, sales increased. Is there a causal link?",Cause-effect discussion,"There could potentially be a causal link between the increase in marketing and the increase in sales. The logic is that increased marketing efforts could lead to greater product or service visibility, which in turn could lead to increased sales. However, it's important to note that correlation does not always imply causation. There could be other factors at play causing the increase in sales. To establish a definitive causal link, further investigation and data analysis would be needed.",Y,felt incomplete
+Counterfactual,What if the internet was never invented?,Alternate history scenario,"If the internet was never invented, the world would be a drastically different place. Information exchange would be slower and less efficient, relying heavily on traditional media such as newspapers, radio, and television. The global connectivity we enjoy today would be significantly reduced, with communication limited to telephone and postal services.
+
+The concept of globalization would be less pronounced without the internet, as it has played a key role in connecting different parts of the world. The ease of doing business across borders would be greatly reduced, affecting global trade and economy.
+
+Technological advancements would also be slower, as the internet has been a catalyst for innovation in numerous fields. The tech industry, as we know it, would be vastly different, with companies like Google, Facebook, Amazon, and countless others not existing. The job market would also be different, with fewer opportunities in tech-related fields.
+
+Education would still rely heavily on traditional methods, with online learning and research being non-existent. The digital divide would not be a concern, but access to information and educational resources would still be a challenge for many, especially those in remote or underprivileged areas.
+
+The entertainment industry would also look different, with no streaming services or online gaming platforms. People would still rely on physical media for music, movies, and games.
+
+In terms of social dynamics, the absence of social media would mean less instant communication and sharing of personal lives. This could potentially lead to stronger local community bonds, but also limit exposure to diverse cultures and ideas.
+
+In essence, without the internet, the world would be less connected, less informed, and potentially less advanced. However, it could also mean a slower pace of life, less information overload, and potentially stronger local community relationships.",Y,very Good Response
+Temporal,"Project starts Jan 1, lasts 90 days. When does it end?",Time sequence calculation,The project ends on April 1.,Y,
+Multi-Hop,"Turing born in 1912, computer built in 1941. What was his role?",Chain multiple facts together,"Turing was born in 1912, which means he would have been an adult by 1941.
+The computer was built in 1941, during Turing's adult life.
+Turing is known for his significant contributions to the development of theoretical computer science and artificial intelligence.
+Therefore, Turing's role in 1941 was likely related to the development or conceptualization of the computer.",N,did not detect the type properly. Response felt more like deduction 
+Analogical,How is a battery like a water reservoir?,Comparison using analogy,"A battery is like a water reservoir in the sense that it stores energy until it's needed, much like a reservoir stores water until it's needed. Just as a reservoir holds water that can be released to generate electricity or supply homes, a battery holds electrical energy that can be released to power devices. When the reservoir or battery is empty, it needs to be refilled or recharged to continue providing its respective resource.",Y,"fine, felt a bit dry"
+Probabilistic,"If a disease affects 2% of people, what's the chance a positive test is correct?",Probability and uncertainty handling,"The probability of a positive test being correct, also known as the positive predictive value (PPV), depends not only on the prevalence of the disease (2% in this case), but also on the sensitivity and specificity of the test, which are not provided in the question.
+
+Sensitivity is the ability of the test to correctly identify those with the disease (true positive rate), while specificity is the ability of the test to correctly identify those without the disease (true negative rate).
+
+Without these values, it's impossible to accurately estimate the chance a positive test is correct. However, if we assume a perfect test with 100% sensitivity and specificity, then a positive test would always be correct, regardless of the disease prevalence.
+
+In reality, no test is perfect. If a test has less than perfect sensitivity and specificity, then the chance a positive test is correct would be less than 100%, even if the disease affects 2% of people.
+
+For example, if the test has a sensitivity of 90% and a specificity of 95%, and the disease affects 2% of people, the chance a positive test is correct would be approximately 26.47%. This is calculated using Bayes' theorem.
+
+So, without the sensitivity and specificity of the test, we can't provide a precise answer to this question.",Y,
+Commonsense,"If you leave ice cream outside in summer, what happens?",Obvious real-world logic,"The ice cream will melt. This is because the temperature outside during summer is typically higher than the freezing point of ice cream. The heat causes the ice cream to change from a solid state to a liquid state, a process known as melting.",N,did not detect the type properly. According to the test case otherwise I think its correct to map this to causal
+Scientific,Prove sum of first n numbers is n(n+1)/2,Step-by-step mathematical proof,"Step 1: Define the problem We are asked to prove that the sum of the first n natural numbers is n(n+1)/2. This is a well-known formula, but we need to prove it using mathematical reasoning.
+
+Step 2: Assume the formula is true for some number k We assume that the formula is true for some positive integer k. That is, we assume that 1 + 2 + 3 + ... + k = k(k+1)/2.
+
+Step 3: Prove the formula is true for the next number, k+1 We need to show that if the formula holds for k, it also holds for k+1. That is, we need to show that 1 + 2 + 3 + ... + k + (k+1) = (k+1)(k+2)/2.
+
+Step 4: Apply the assumption We know from our assumption that 1 + 2 + 3 + ... + k = k(k+1)/2. So we can substitute this into our equation to get: k(k+1)/2 + (k+1) = (k+1)(k+2)/2.
+
+Step 5: Simplify the equation If we simplify the left side of the equation, we get (k^2+k+2k+2)/2 = (k+1)(k+2)/2.
+
+Step 6: Further simplification This simplifies further to (k^2+3k+2)/2 = (k+1)(k+2)/2.
+
+Step 7: Recognize that the left side of the equation is a factorization of the right side The left side of the equation, (k^2+3k+2), is the same as (k+1)(k+2), which is the right side of the equation. Therefore, we have shown that if the formula holds for some number k, it also holds for the next number, k+1.
+
+Step 8: Apply the principle of mathematical induction By the principle of mathematical induction, if a statement is true for the number 1, and if the truth of that statement for a number k implies the truth of the statement for the number k+1, then the statement is true for all positive integers.
+
+Step 9: Verify the base case We can easily verify that the formula holds for n=1, because 1(1+1)/2 = 1, which is the sum of the first 1 natural numbers.
+
+Step 10: Conclusion Therefore, by the principle of mathematical induction, the formula that the sum of the first n natural numbers is n(n+1)/2 is proven to be true for all positive integers n.",Y,
+Spatial,"If you slice a cylinder vertically, what shape appears?",Spatial/geometric reasoning,"When you slice a cylinder vertically, the shape that appears is a rectangle. This is because a cylinder has two parallel circular bases and a curved surface connecting the bases. When you cut it vertically, you are cutting through the curved surface, which when flattened out, forms a rectangle.",Y,
+Planning,How would you plan a wedding with a $10k budget?,Goal-driven step-by-step plan,"Response:
+Define the Goals: The primary goal is to plan a wedding within a $10k budget. Secondary goals may include ensuring a memorable and enjoyable experience for the couple and guests, and incorporating personal preferences and traditions.
+
+Identify Constraints: The main constraint is the $10k budget. Other constraints may include the number of guests, venue availability, and specific requirements for food, attire, and entertainment.
+
+Budget Allocation: Allocate the budget to different aspects of the wedding. A typical allocation might be: venue (30%), catering (30%), attire and accessories (15%), photography/videography (10%), decorations (10%), and miscellaneous expenses (5%). This allocation can be adjusted based on the couple's preferences.
+
+Research and Shortlist Options: Research options for each aspect within the allocated budget. For example, for the venue, consider options like public parks, community halls, or a family member's backyard which can be more affordable than traditional wedding venues. Shortlist options based on cost, availability, and suitability.
+
+Decision Making: Make decisions for each aspect considering cost, personal preferences, and feedback from key stakeholders like family members. Try to negotiate prices and look for deals or discounts to stay within budget.
+
+Implementation: Once decisions are made, book the venue, caterer, photographer, etc., and purchase necessary items like attire and decorations. Keep track of all expenses to ensure you stay within budget.
+
+Contingency Planning: Set aside a portion of the budget (e.g., part of the miscellaneous expenses) for unexpected costs. Also, have backup plans for key aspects. For example, if the wedding is planned outdoors, have a backup plan in case of bad weather.
+
+Review and Adjust: Regularly review the plan and progress, and adjust as necessary. For example, if the catering costs more than expected, try to reduce costs in other areas to stay within budget.
+
+Rationale: This plan follows a systematic approach to decision making, considering both goals and constraints. It prioritizes the couple's preferences while ensuring financial responsibility. It also includes contingency planning to handle unexpected situations, and regular review and adjustment to ensure the plan stays on track.",Y,
+Ethical,Should a self-driving car save a passenger or a pedestrian?,Ethical dilemma discussion,"This ethical dilemma involves the principles of utilitarianism, deontology, and virtue ethics.
+
+From a utilitarian perspective, which focuses on maximizing overall happiness, the decision might depend on the number of people involved. If there are multiple passengers in the car and only one pedestrian, the car should prioritize the passengers to minimize loss of life. However, this approach can be criticized as it reduces human life to a numbers game.
+
+From a deontological perspective, which emphasizes duties and rules, the car should prioritize the pedestrian. This is because pedestrians have the right of way in traffic laws, and the car, as a creation of human beings, should follow these rules. However, this approach can be criticized for not considering the value of the passenger's life.
+
+From a virtue ethics perspective, which emphasizes moral character, the car should strive for the virtue of fairness. This could mean that the car should try to avoid harm to both parties as much as possible, even if it means damaging itself. However, this approach can be criticized for being vague and not providing a clear answer.
+
+The trade-off in this dilemma is between the value of the passenger's life and the value of the pedestrian's life. Both are equally important, but in a split-second decision, the car cannot save both. This dilemma highlights the need for clear ethical guidelines in the development of self-driving cars.",Y,"what about the owership of the car, the car should prioritse who it belong to. loyalty. "
+Legal,Can a company store fingerprints under GDPR?,Legal compliance reasoning,"Yes, a company can store fingerprints under the General Data Protection Regulation (GDPR), but it must comply with strict conditions.
+
+Under GDPR, fingerprints are considered as biometric data, which is categorized as a special category of personal data (Article 9). This type of data is subject to higher protection and can only be processed under certain conditions.
+
+Firstly, the company must obtain explicit consent from the individual whose fingerprints are being stored (Article 9(2)(a)). This consent must be freely given, specific, informed, and unambiguous.
+
+Secondly, the company must have a specific purpose for processing this data and it must be necessary for that purpose. The company cannot store the fingerprints just in case they might be useful in the future.
+
+Thirdly, the company must ensure that appropriate safeguards are in place to protect the data. This includes measures such as encryption and pseudonymisation (Article 32).
+
+Finally, the company must comply with all other GDPR principles, such as data minimisation and transparency.
+
+It's also worth noting that some countries have additional rules on biometric data. For example, in France, companies generally need authorization from the CNIL (the French data protection authority) to process biometric data.
+
+Therefore, while it's legally possible for a company to store fingerprints under GDPR, it's subject to strict conditions and should only be done after careful consideration.",Y,
+Multi-Agent,How should drones collaborate in a search mission?,Multi-agent cooperation or strategy,"In a search mission, drones can be considered as multiple intelligent agents. They should collaborate effectively to achieve the common goal of finding the target. Here are some ways in which they can do this:
+
+Division of Search Area: The search area can be divided among the drones, ensuring that each drone is responsible for a specific section. This division can be based on the capabilities of each drone, such as speed, battery life, and sensor range. This way, the entire area can be covered more efficiently and quickly.
+
+Communication and Information Sharing: Drones should be able to communicate with each other and share information in real-time. If one drone finds something of interest, it should be able to inform the others. This way, they can converge on the location or adjust their search patterns accordingly.
+
+Cooperative Decision Making: Drones should be able to make decisions collectively. For instance, if a drone's battery is running low, it should be able to communicate this to the others, and they should be able to reassign its area to other drones.
+
+Learning from Each Other: Drones should have machine learning capabilities that allow them to learn from each other's experiences. For example, if one drone finds a more efficient search pattern, it should be able to share this with the others.
+
+Conflict Resolution: In case of conflicts, such as two drones wanting to search the same area, there should be a mechanism for conflict resolution. This could be based on priority levels, with the drone having higher priority getting the preference.
+
+Adaptive Strategies: The drones should be able to adapt their strategies based on the situation. For example, if the weather conditions change, they should be able to adjust their search patterns accordingly.
+
+In conclusion, effective collaboration among drones in a search mission involves division of labor, communication and information sharing, cooperative decision making, learning from each other, conflict resolution, and adaptive strategies.",Y,
+Metacognitive,How can I improve my logical thinking?,Self-reflective advice,"Step 1: Understand the Basics of Logic Rationale: The first step in improving logical thinking is understanding what it is. This involves learning about the principles of logic, including the laws of logic, logical fallacies, and how to construct logical arguments.
+
+Step 2: Practice Problem-Solving Rationale: Logical thinking is often used in problem-solving. By regularly practicing problem-solving, you can improve your ability to think logically. This could involve solving puzzles, playing strategy games, or working through complex problems in your work or studies.
+
+Step 3: Read Widely and Critically Rationale: Reading widely can expose you to a range of different perspectives and ways of thinking. Reading critically can help you to evaluate the logic of the arguments being made, which can in turn improve your own logical thinking.
+
+Step 4: Engage in Debates and Discussions Rationale: Engaging in debates and discussions can help you to practice constructing logical arguments and identifying logical fallacies in the arguments of others. This can be done in formal settings, such as in a debate club, or in informal settings, such as in discussions with friends or colleagues.
+
+Step 5: Reflect on Your Own Thinking Rationale: Reflecting on your own thinking can help you to identify any biases or logical fallacies that you may be prone to. This can help you to improve your logical thinking by making you more aware of these potential pitfalls.
+
+Step 6: Seek Feedback Rationale: Seeking feedback from others can help you to identify areas where your logical thinking may need improvement. This could be feedback on your problem-solving skills, your arguments in debates or discussions, or your critical reading skills.
+
+Step 7: Continuous Learning and Practice Rationale: Like any skill, logical thinking can be improved with continuous learning and practice. This could involve regularly reading about logic, practicing problem-solving, engaging in debates and discussions, reflecting on your own thinking, and seeking feedback.
+
+By following these steps, you can gradually improve your logical thinking skills, which can help you to make better decisions, solve problems more effectively, and communicate more persuasively.",Y,did not detect the type properly intially but then corrected it based on my selection from the dropdown 

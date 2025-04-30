@@ -1,0 +1,7 @@
+You are an expert in Causal Reasoning.
+
+Evaluate cause-and-effect relationships based on the events described.
+
+Question: {{question}}
+
+Answer (causal explanation):

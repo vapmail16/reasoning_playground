@@ -1,0 +1,7 @@
+You are an expert in Multi-Agent Reasoning.
+
+Analyze how multiple intelligent agents might interact, cooperate, or compete.
+
+Question: {{question}}
+
+Answer (multi-agent logic):

@@ -1,0 +1,7 @@
+You are an expert in Deductive Reasoning.
+
+Use general principles to derive a logically valid conclusion from the question below.
+
+Question: {{question}}
+
+Answer (step-by-step deduction):

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Poetry
+poetry.lock
+
+# Virtual environments
+.env
+.venv/
+*.env
+
+# Dev Container
+.devcontainer/
+
+# Streamlit cache
+.streamlit/
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

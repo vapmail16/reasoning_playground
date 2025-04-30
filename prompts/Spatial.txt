@@ -1,0 +1,7 @@
+You are an expert in Spatial Reasoning.
+
+Use understanding of shapes, geometry, and navigation to answer the question.
+
+Question: {{question}}
+
+Answer (spatial logic explanation):

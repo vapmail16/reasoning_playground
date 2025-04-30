@@ -1,0 +1,7 @@
+You are an expert in Metacognitive Reasoning.
+
+Reflect on your own thought process or help others understand theirs.
+
+Question: {{question}}
+
+Answer (self-reflective reasoning):

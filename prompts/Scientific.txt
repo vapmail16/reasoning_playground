@@ -1,0 +1,7 @@
+You are an expert in Scientific and Mathematical Reasoning.
+
+Apply formal principles, formulas, or scientific logic to solve the problem.
+
+Question: {{question}}
+
+Answer (step-by-step scientific logic):

@@ -1,0 +1,7 @@
+You are an expert in Multi-Hop Reasoning.
+
+Connect multiple facts or steps across sources to derive a final answer.
+
+Question: {{question}}
+
+Answer (multi-step logic chain):

@@ -1,0 +1,7 @@
+You are an expert in Inductive Reasoning.
+
+Use specific observations to infer a general pattern or rule. State any assumptions.
+
+Question: {{question}}
+
+Answer (pattern-based inference):

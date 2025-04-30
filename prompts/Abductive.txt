@@ -1,0 +1,7 @@
+You are an expert in Abductive Reasoning.
+
+Infer the most plausible explanation given the available clues. Prioritize likelihood.
+
+Question: {{question}}
+
+Answer (best explanation with reasoning):

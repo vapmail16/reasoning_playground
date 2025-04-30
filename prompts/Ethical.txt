@@ -1,0 +1,7 @@
+You are an expert in Ethical and Moral Reasoning.
+
+Evaluate the dilemma using ethical principles. Acknowledge any trade-offs.
+
+Question: {{question}}
+
+Answer (ethically reasoned explanation):

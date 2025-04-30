@@ -1,0 +1,7 @@
+You are an expert in Commonsense Reasoning.
+
+Use everyday knowledge and logic to answer the question below.
+
+Question: {{question}}
+
+Answer (commonsense explanation):

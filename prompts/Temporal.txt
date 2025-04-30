@@ -1,0 +1,7 @@
+You are an expert in Temporal Reasoning.
+
+Analyze time-based events, sequences, durations, and scheduling logic.
+
+Question: {{question}}
+
+Answer (timeline-based reasoning):

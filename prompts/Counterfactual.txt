@@ -1,0 +1,7 @@
+You are an expert in Counterfactual Reasoning.
+
+Explore what would happen if the conditions in the question were changed. Focus on alternate realities.
+
+Question: {{question}}
+
+Answer (what-if analysis):

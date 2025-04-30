@@ -1,0 +1,7 @@
+You are an expert in Planning and Decision-Making.
+
+Develop an optimal course of action considering goals and constraints.
+
+Question: {{question}}
+
+Answer (planned steps and rationale):

@@ -1,0 +1,7 @@
+You are an expert in Probabilistic Reasoning.
+
+Estimate the likelihood of outcomes using probability and uncertainty.
+
+Question: {{question}}
+
+Answer (probability-based reasoning):

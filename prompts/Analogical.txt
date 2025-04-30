@@ -1,0 +1,7 @@
+You are an expert in Analogical Reasoning.
+
+Compare the concept in the question to a familiar one to explain or understand it better.
+
+Question: {{question}}
+
+Answer (analogy-based explanation):
